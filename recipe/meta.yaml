@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.2.0.post0" %}
 
 package:
   name: ratelimiter
@@ -7,7 +7,7 @@ package:
 source:
   fn: ratelimiter-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/r/ratelimiter/ratelimiter-{{ version }}.tar.gz
-  sha256: f724b256264afdeab0225ec174728b0f8af1afd1cc122463150daf226b411fb6
+  sha256: 5c395dcabdbbde2e5178ef3f89b568a3066454a6ddc223b76473dac22f89b4f7
 
 build:
   number: 0
